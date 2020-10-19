@@ -50,11 +50,11 @@ html{
     justify-content: center;
     flex-direction: column;
     position: relative;
-    bottom: 11vh;
+    bottom: 8vh;
 }
 
 .logo-container{
-    margin: 5vh;
+    margin: 4vh;
     width: 20vw;
 }
 
@@ -64,16 +64,37 @@ html{
 .searcher{
     width: 40vw;
 }
-.searcher input{
-    width: 100%;
-    height: 5vh;
+.searcher{
+    width: 42vw;
+    height: 7vh;
     font-size: 16rem;
-    border-radius: 15px;
-    border: #b3b0b0b7 solid 1px;
-    outline: none;
+    border-radius: 25px;
+    border: #d4d0d0b7 solid 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.searcher input:hover{
+.searcher input{
+    width: 70%;
+    height: 4vh;
+    font-size: 16rem;
+    outline: none;
+    border: none;
+}
+
+.searcher img:last-child{
+    width: 22px;
+    height: 22px;
+    margin: 0 3%;
+}
+
+.searcher img{
+    width: 12px;
+    height: 12px;
+    margin: 0 3%;
+}
+.searcher:hover{
     box-shadow: 0 4px 16px #6e6c6c57;
     transition: all 0.2s ease;
 }
@@ -81,12 +102,27 @@ html{
 .buttons-container{
     display: flex;
     margin: 2%;
-    width: 35vw;
+    width: 50vw;
     justify-content: center;
-    height: 6vh;
-    font-size: 16rem;
+    height: 6.5vh;
+    font-size: 15rem;
+    margin-top: 5%;
 }
 
 button{
+    width: 12vw;
+    height: 6vh;
+    color: #575555;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
     margin: 5px;
 }
+
+button:hover{
+    border: #b3b0b0b7 solid 1px;
+    color: #020202;
+    box-shadow: 0 4px 16px #6e6c6c57;
+    transition: all 0.2s ease;
+}
+
