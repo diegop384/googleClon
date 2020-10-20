@@ -1,6 +1,19 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 html{
     font-size: 6.25%;
 }
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 /*Header*/
 
@@ -9,7 +22,7 @@ html{
     justify-content: flex-end;
     align-items: center;
     list-style-type: none;
-    margin: 0 0.5%;
+    margin: 0 1%;
 }
 
 .header-list li{
@@ -41,7 +54,7 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 85vh;
+    height: 77vh;
 }
 
 .main-container__content{
@@ -50,7 +63,7 @@ html{
     justify-content: center;
     flex-direction: column;
     position: relative;
-    bottom: 8vh;
+    bottom: 5vh;
 }
 
 .logo-container{
@@ -126,3 +139,56 @@ button:hover{
     transition: all 0.2s ease;
 }
 
+/*End of the main*/
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: #696767;
+    width: 100vw;
+    height: 14vh;
+    font-size: 16rem;
+    background-color: #f2f2f2 ;
+    border: solid #d4d0d0b7 1px;
+}
+
+.footer_one{
+    font-size: 14rem;
+    border: solid #d4d0d0b7 1px;
+}
+
+.footer_one p{
+    padding-left: 1vw;
+    margin: 1vw;
+}
+
+
+.footer_two{
+    font-size: 14rem;
+    margin: 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav_one{
+    padding: 0 1vw;
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.nav_one li{
+    padding: 0 1vw;
+}
+
+.nav_one a{
+    text-decoration: none;
+    color: #696767;
+}
+
+.nav_one a:hover{
+    text-decoration: underline;
+}
